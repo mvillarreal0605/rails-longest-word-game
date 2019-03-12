@@ -1,0 +1,5 @@
+<h2>Your Letters: <%= @letters %></h2>
+<h2>Your word: <%= @word %></h2>
+<p><%= p @included ? "Valid letters" :  "Did not use correct letters"%></p>
+<p><%= p @valid_word ? "#{@word} is an English word" : "#{@word} is not in the English dictionary" %></p>
+<a href="/new">Play again</a>
